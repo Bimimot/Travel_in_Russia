@@ -1,0 +1,17 @@
+.trains__black-glass{
+position: absolute;
+margin: 0;
+width: 100%;
+height: 100%;
+  top: 0;
+  left: 0;
+    background-color: rgba(0,0,0,.3);
+    transition: background-color 2s linear 0s;
+
+}
+
+.trains__black-glass:hover{
+    background-color: rgba(0,0,0,.8);
+}
+
+

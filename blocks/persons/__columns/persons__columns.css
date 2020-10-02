@@ -1,0 +1,40 @@
+
+.persons__columns{
+display: grid;
+     font-family: Inter, Arial, sans-serif; 
+
+    }
+
+@media screen and (max-width: 767px){
+.persons__columns{
+max-width: calc (100% - 32px);
+    grid-template-rows: repeat(1,3fr);
+    gap: 47px;
+
+padding-top: 42px;
+padding-bottom: 48px;
+
+}
+}
+
+@media screen and (min-width: 768px){
+.persons__columns{
+max-width: 382px;
+        grid-template-rows: repeat(1,3fr);
+        gap: 47px;
+    
+padding-top: 66px;
+padding-bottom: 102px;        
+}
+}
+
+@media screen and (min-width: 1024px){
+.persons__columns{
+width: calc(100% - 96px);
+max-width: 1184px;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 19px;
+        
+}
+}
+

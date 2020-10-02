@@ -1,0 +1,39 @@
+
+.content-title{
+
+text-align: center;
+    margin: 0;
+    color: white;
+    font-family: Inter, Arial, sans-serif; 
+    font-weight: 900;
+}
+
+@media screen and (max-width: 767px){
+.content-title{
+width: calc(100% - 32px);
+    padding-top: 64px;
+        font-size: 2rem;
+                line-height: 1.09;
+}
+}
+
+@media screen and (min-width: 768px){
+    .content-title{
+    width: 60%;
+        padding-top: 102px;
+                font-size: 2.625rem;
+                
+                
+}
+}
+
+
+@media screen and (min-width: 1024px){
+.content-title{
+    width: 80%;
+        font-size: 4.5rem;
+        line-height: 1.08;
+
+}
+}
+

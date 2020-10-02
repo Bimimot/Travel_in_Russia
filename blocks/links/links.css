@@ -1,0 +1,10 @@
+
+.links{
+transition: opacity 1s linear 0s;
+font-family: Inter, Arial, sans-serif;
+}
+
+.links:hover{
+  opacity: .7;
+}
+

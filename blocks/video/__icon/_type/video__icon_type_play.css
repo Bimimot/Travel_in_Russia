@@ -1,0 +1,26 @@
+.video__icon_type_play{
+position: absolute;
+margin: 0;
+        z-index: 5;
+}
+
+@media screen and (max-width: 374px){
+.video__icon_type_play{    
+    top: 16px;
+    left: 16px;
+}
+}
+
+@media screen and (min-width: 375px){
+.video__icon_type_play{    
+    top: 24px;
+    left: 24px;
+}
+}
+
+@media screen and (min-width: 1024px){
+.video__icon_type_play{    
+    top: 30px;
+    left: 30px;
+}
+}

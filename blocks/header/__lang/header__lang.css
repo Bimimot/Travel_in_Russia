@@ -1,0 +1,15 @@
+@import url(./_type/header__lang_type_selected.css);
+
+.header__lang{
+position: relative;
+    margin: 0;
+    padding: 0;
+    margin-left: 18px;
+        font-weight: normal;
+        color: white;
+        text-decoration: none;
+        font-size: 1em;
+        line-height: 1em;
+
+}
+

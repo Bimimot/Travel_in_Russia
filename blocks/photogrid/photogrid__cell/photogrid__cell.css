@@ -1,0 +1,22 @@
+.photogrid__cell{
+position: relative;
+display: flex;
+margin: 0;
+}
+
+@media screen and (min-width: 375px){
+    .photogrid__cell{
+        width: 100%;
+        padding-bottom: 66,66%;
+
+}
+}
+
+@media screen and (min-width: 1280px){
+.photogrid__cell{
+    width: 284px;
+}
+}
+    
+
+

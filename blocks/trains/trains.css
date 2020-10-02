@@ -1,0 +1,31 @@
+@import url(.//__image/trains__image.css);
+@import url(.//__title/trains__title.css);
+@import url(.//__subtitle/trains__subtitle.css);
+@import url(./__black-glass/trains__black-glass.css);
+@import url(./__link/trains__link.css);
+
+
+.trains{
+    position: relative;
+    display: flex;
+    margin: 0;
+    padding: 0;
+        flex-direction: column;
+        align-items: center;
+          font-family: Inter, Arial, sans-serif; 
+}
+
+@media screen and (max-width: 767px){
+.trains{
+max-width: 1184px;
+width: 100%;
+  font-size: 14px;
+}
+}
+
+
+@media screen and (min-width: 768px){
+.trains{
+font-size: 18px;
+  }
+  }

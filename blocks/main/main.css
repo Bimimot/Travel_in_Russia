@@ -1,0 +1,11 @@
+.main{
+    position: relative;
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+            color: white;
+            background-color: #2A2C2F;
+            box-sizing: border-box;
+        font-family: Inter, Arial, sans-serif;     
+    }

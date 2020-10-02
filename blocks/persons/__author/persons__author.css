@@ -1,0 +1,22 @@
+.persons__author{
+width: 100%;
+     margin: 0;
+     margin-top: 16px;
+     font-size: 1em;
+          line-height: 1.5714;
+          font-weight: 900;
+}
+
+@media screen and (max-width: 1023px){
+.persons__author{
+order: 2;
+margin-bottom: 24px;
+text-align: center;
+}
+}
+
+@media screen and (min-width: 1024px){
+.persons__author{
+order: 3;
+}
+}

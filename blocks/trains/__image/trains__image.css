@@ -1,0 +1,31 @@
+.trains__image{
+position: relative;
+margin: 0;
+padding: 0;
+    width: 100%;
+    object-fit: cover; 
+}
+
+@media screen and (max-width: 767px){
+.trains__image{
+min-height: 272px;
+}
+}
+
+@media screen and (min-width: 768px){
+.trains__image{
+min-height: 500px;
+}
+}
+
+@media screen and (min-width: 1024px){
+.trains__image{
+min-height: 562px;
+}
+}
+
+@media screen and (min-width: 1270px){
+.trains__image{
+min-height: 594px;
+}
+}

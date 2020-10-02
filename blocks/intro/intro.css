@@ -1,0 +1,53 @@
+
+
+@import url(./__column-text/intro__column-text.css);
+
+@import url(./__data/intro__data.css);
+@import url(./__line/intro__line.css);
+@import url(./__span-accent/intro__span-accent.css);
+@import url(./__title/intro__title.css);
+
+
+.intro{
+position: relative;
+display: flex;
+    flex-direction: column;
+        background-color: #2A2C2F;
+        color: white;
+        font-family: Inter, Arial, sans-serif; 
+        align-items: flex-start;
+}
+
+@media screen and (max-width: 767px){
+.intro{
+width: calc(100% - 32px);
+    font-size: 16px;
+}
+}
+
+@media screen and (min-width: 768px){
+.intro{
+width: calc(100% - 48px);
+    font-size: 14px;
+        }
+        }
+
+@media screen and (min-width: 1024px){
+.intro{
+width: calc(100% - 96px);
+    max-width: 984px;
+        font-size: 14px;
+}
+}
+
+
+
+
+
+
+
+
+
+    
+
+

@@ -1,0 +1,37 @@
+.video__title{
+position: absolute;
+margin: 0;
+width: 70%;    
+        font-weight: 900;
+        color: white;
+            z-index: 5;
+
+            left: 16px;
+            bottom: 36px;
+            font-size: 24px;
+            line-height: 1.08;
+}
+
+
+
+@media screen and (min-width: 375px){
+.video__title{
+left: 24px;
+bottom: 42px;
+    
+    }
+    }
+
+@media screen and (min-width: 768px){
+.video__title{
+    bottom: 52px;
+}
+}
+
+@media screen and (min-width: 1024px){
+.video__title{
+    left: 30px;
+    bottom: 66px;
+        font-size: 36px;
+}
+}

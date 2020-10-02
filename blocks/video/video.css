@@ -1,0 +1,34 @@
+@import url(./__container/video__container.css);
+@import url(./__duration/video__duration.css);
+@import url(./__icon/video__icon.css);
+@import url(./__subtitle/video__subtitle.css);
+@import url(./__title/video__title.css);
+@import url(./__poster/video__poster.css);
+@import url(./__black-glass/video__black-glass.css);
+@import url(./__link/video__link.css);
+
+.video{
+position: relative;
+display: flex;
+margin: 0;
+padding: 0;
+    flex-direction: column;
+    align-items: center;
+      font-size: 12px;
+      font-family: Inter, Arial, sans-serif;
+width: calc(100% - 32px);
+}
+
+@media screen and (min-width: 768px){
+.video{
+width: calc(100% - 48px);
+}
+}
+
+@media screen and (min-width: 1024px){
+.video{
+width: calc(100% - 96px);
+  max-width: 1184px;
+}
+}
+

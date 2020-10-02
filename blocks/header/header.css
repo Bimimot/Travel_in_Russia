@@ -1,0 +1,38 @@
+@import url(./__logo/header__logo.css);
+@import url(./__lang-container/header__lang-container.css);
+@import url(./__lang/header__lang.css);
+
+.header {
+position: relative;
+display: flex;
+justify-content: space-between; 
+    margin: 0;
+        color: white;
+        background-color: #2A2C2F;
+        font-family: Inter, Arial, sans-serif; 
+        padding-bottom: 48px;
+}
+
+@media screen and (max-width: 767px){
+.header{
+width: calc(100% - 32px);
+
+        font-size: 18px;
+                
+}
+}
+
+@media screen and (min-width: 768px){
+.header{
+width: calc(100% - 48px);
+        font-size: 24px;
+        
+}
+}
+
+@media screen and (min-width: 1024px){
+.header{
+width: calc(100% - 96px);
+                
+}
+}

@@ -1,0 +1,25 @@
+.places__heading{
+position: relative;
+margin: 0 auto;
+        font-weight: 900;
+        color: white;
+            width: calc(100% - 32px);
+            font-size: 2.625em;
+            line-height: 0.9027;
+}
+
+
+
+@media screen and (min-width: 768px){
+.places__heading{
+width: calc(100% - 22px);
+}
+}
+
+@media screen and (min-width: 1024px){
+.places__heading{
+max-width:460px;
+    font-size: 4em;
+    line-height: 0.9027;
+}
+}

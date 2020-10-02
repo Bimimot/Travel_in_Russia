@@ -1,0 +1,41 @@
+.video__link{
+position: relative;
+display: flex;
+margin:0;
+padding: 0;
+    border-radius: 5px;
+                
+}
+@media screen and (max-width: 767px){
+.video__link{
+width: 100%;
+min-height: 192px;;
+    margin-bottom: 16px;
+}
+.video__link:last-child{
+margin-bottom: 0;
+}
+}
+
+@media screen and (min-width: 768px){
+.video__link{
+    width: calc(50%-8px);
+    margin-right: 16px;
+    min-height: 200px;
+}
+.video__link:last-child{
+    margin-right: 0;
+}
+}
+
+@media screen and (min-width: 1024px){
+.video__link{
+    min-height: 288px;
+}
+}
+
+@media screen and (min-width: 1280px){
+.video__link{
+    min-height: 323px;
+}
+}

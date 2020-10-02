@@ -1,0 +1,24 @@
+@import url(.//__columns/persons__columns.css);
+@import url(.//__author/persons__author.css);
+@import url(.//__item/persons__item.css);
+@import url(.//__photo/persons__photo.css);
+@import url(.//__text/persons__text.css);
+
+
+.persons{
+position: relative;
+display: flex;
+    margin: 0;
+    padding: 0;
+        flex-direction: column;
+        align-items: center;
+          font-family: Inter, Arial, sans-serif;
+          max-width: 1184px;
+            width: 100%;
+            font-size: 14px;
+    }
+
+
+
+
+

@@ -1,0 +1,17 @@
+.persons__text{
+margin: 0;
+    font-weight: normal;
+    color: white;
+
+    font-size: 1.14em;
+    line-height: 1.44;
+    order: 3;
+}
+
+@media screen and (min-width: 1024px){
+.persons__text{
+font-size: 1em;
+line-height: 1.71;
+order: 2;
+}
+}

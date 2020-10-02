@@ -1,0 +1,54 @@
+@import url(../blocks/main/main.css);
+@import url(../blocks/page/page.css);
+@import url(../vendor/normalize.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/photogrid/photogrid.css);
+@import url(../blocks/places/places.css);
+
+@import url(../blocks/content-title/content-title.css);
+@import url(../blocks/content-subtitle/content-subtitle.css);
+@import url(../blocks/video/video.css);
+@import url(../blocks/website/website.css);
+@import url(../blocks/persons/persons.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/links/links.css);
+
+@import url(../blocks/trains/trains.css);
+
+
+@font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 400;
+    font-display: swap;
+
+    src: url("../fonts/Inter/Inter-Regular.woff2") format("woff2"),
+         url("../fonts/Inter/Inter-Regular.woff") format("woff");
+  }
+
+@font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 700;
+    font-display: swap;
+
+    src: url("../fonts/Inter/Inter-Bold.woff2") format("woff2"),
+         url("../fonts/Inter/Inter-Bold.woff") format("woff");
+  }
+
+@font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 900;
+    font-display: swap;
+
+    src: url("../fonts/Inter/Inter-Black.woff2") format("woff2"),
+         url("../fonts/Inter/Inter-Black.woff") format("woff");
+  }
+
+
+
+
+

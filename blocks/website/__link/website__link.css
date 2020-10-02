@@ -1,0 +1,14 @@
+.website__link{
+        
+        text-decoration: underline;
+        color: white;
+}
+
+@media screen and (min-width: 768px){
+.website__link{
+        font-size: 1.5em;
+        line-height: 1.6667;
+        font-weight: normal;
+        }
+        }
+        

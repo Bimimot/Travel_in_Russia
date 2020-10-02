@@ -1,0 +1,12 @@
+.footer__item{
+display: flex;
+position: relative;
+margin: 0;
+padding: 0;
+    margin-right: 18px;
+}
+  
+.footer__item:last-child{
+    margin-right: o;
+
+}

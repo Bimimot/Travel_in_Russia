@@ -1,0 +1,46 @@
+@import url(.//__menu/footer__menu.css);
+@import url(.//__link/footer__link.css);
+@import url(.//__author/footer__author.css);
+@import url(.//__list/footer__list.css);
+@import url(.//__item/footer__item.css);
+
+.footer{
+      display: flex;
+      position: relative; 
+      
+      justify-content: space-between;
+      align-items: flex-end;
+        margin: 0px;
+        font-family: Inter, Arial, sans-serif; 
+
+flex-direction: column;
+width: calc(100% - 32px);
+    font-size: 24px;
+    align-items: flex-start;
+        padding-top: 64px;
+        padding-bottom: 24px;
+}
+
+@media screen and (min-width: 768px){
+.footer{
+flex-direction: row;
+width: calc(100% - 48px);
+    font-size: 16px;
+        padding-top: 102px;
+        padding-bottom: 30px;
+}
+}
+
+@media screen and (min-width: 1024px){
+.footer{
+width: calc(100% - 96px);
+    padding-top: 160px;
+    padding-bottom: 48px;
+        font-size: 24px;
+
+}
+}
+
+
+    
+    
